@@ -1,0 +1,27 @@
+GET http://localhost:3000/user/edit-id:id
+
+
+###
+POST  http://localhost:3000/user/user
+
+Content-Type: application/json
+{
+    "firstName" : "ghi",
+    "lastName" : "efc",
+    "isActive" : false,
+    "email" : "test@gmail.com",
+    "Date" : 2024-04-12,
+    "DOB" : 1990-04-12,
+    "password" : "fdsa" ,
+    "phoneNumber" : 54321
+}
+
+
+###
+Post http://localhost:3000/auth/login 
+
+Content-Type: application/json
+{
+  "username": "john",
+  "password": "changeme",
+}
